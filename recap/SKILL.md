@@ -13,6 +13,8 @@ This skill is designed for chats inside a Project. If the chat is not in a Proje
 
 Run the `project-knowledge-check` skill if it is installed. The next chat reads the Project knowledge first, so a recap is only as good as the files behind it. If the skill is not installed, at least confirm that every document created or changed in this chat is in the knowledge in its latest version.
 
+Show the check's own report first, in full, then the recap below it. Do not fold the report into the recap sections. Changes to the knowledge are made without asking, so the user must see each one with its file name. Actions that only the user can take appear in the report and again in For you, so the recap stays complete on its own.
+
 If the Project instructions define their own recap format, follow that format and keep the knowledge check.
 
 ## Where the recap lives
@@ -20,6 +22,8 @@ If the Project instructions define their own recap format, follow that format an
 The recap stays in the chat. Do not save it as a file in the knowledge. Decisions belong in the Project's own working documents, and the hook carries the handoff to the next chat. A saved recap duplicates those documents and becomes one more stale file for the next check.
 
 ## Output, in this order, with no extra sections
+
+These are the sections of the recap itself. The knowledge check report, when there is one, sits above them as a separate block.
 
 ### 1. Chat name
 
