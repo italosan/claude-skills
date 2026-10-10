@@ -10,6 +10,8 @@ Skills I use with Claude, one folder each. Take what helps you.
 2. In Claude, open Customize > Skills > Add and upload the folder (or a zip of it).
 3. Toggle it on. It triggers on the phrases listed in its description.
 
+**Updating.** Claude keeps the version you uploaded. It does not sync from this repo. When a skill changes here, upload the new folder again, otherwise your chats keep running the old version.
+
 Each skill is a single `SKILL.md` file with a `name`, a `description` that says when it fires, the instructions, and one complete example of the output. The instructions are in English and the output follows the language of the conversation.
 
 ## Skills
