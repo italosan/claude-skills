@@ -14,9 +14,13 @@ Each skill is a single `SKILL.md` file with a `name`, a `description` that says 
 
 ## Skills
 
+These skills are built for claude.ai Projects, where work is split across many chats that share the same knowledge.
+
+
 | Skill | What it does |
 |---|---|
-| [recap](recap/) | Closes a project chat with a standard handoff: chat name, what was done, next chat, and a hook to paste into it. |
+| [recap](recap/) | Closes a chat in a claude.ai Project with a standard handoff: chat name, what was done, next chat, actions for you, and a hook to paste into it. |
+| [project-knowledge-check](project-knowledge-check/) | Keeps a Project's knowledge and instructions aligned with what was decided, so the next chat does not start from stale files. `recap` calls it before writing. |
 
 ## License
 
